@@ -161,6 +161,8 @@ strong{
     width: 50%;
     border-radius: 15px;
     margin: 20px;
+    border: 2px solid #11273f;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 40%);
 }
 
 .certificates-imgs{
@@ -302,7 +304,7 @@ p span {
   
 @media (max-width:550px) {
     .certificates img {
-        width: 100%;
+        width: 90%;
         border-radius: 15px;
         margin: 20px;
     }
