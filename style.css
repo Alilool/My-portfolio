@@ -43,6 +43,11 @@ nav {
     display: flex;
 }
 
+
+.logo{
+    padding-right: 21px;
+}
+
 .main{
     background-color: #11273f;
     padding: 110px 0 0 0;
