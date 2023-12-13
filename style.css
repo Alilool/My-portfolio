@@ -210,6 +210,10 @@ strong{
     padding: 30px 0;
 }
 
+#last-icon{
+    margin: 0;
+}
+
 .info{
     font-weight: 550;
 }
