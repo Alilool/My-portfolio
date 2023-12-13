@@ -6,7 +6,10 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    
 }
+
+
 
 header {
     display: flex;
@@ -17,6 +20,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 999;
+    overflow: visible;
 
 }
 
@@ -36,13 +40,9 @@ header a{
     transition: 0.5s ease;
 }
 
-
-
-nav {
-    margin: 0 50px;
-    display: flex;
+#last-link {
+    margin-right: 100px;
 }
-
 
 .logo{
     padding-right: 21px;
@@ -52,7 +52,7 @@ nav {
     background-color: #11273f;
     padding: 110px 0 0 0;
     text-align: center;
-    height: 45vh;
+    height: 25em;
 }
 
 .main h4 , .main h3{
@@ -93,11 +93,24 @@ nav {
     color: white;
 }
 
+.about{
+    text-align: center;
+    background-color: #e8f7ff;
+}
+
+.about p{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1e74a2;
+    margin: 0 10px 0 10px;
+    padding-bottom: 40px;
+}
+
 .title{
+    display: inline-block;
     text-align: center;
     font-size: 2.5em;
-    margin: 30px;
-    margin-top: 60px;
+    padding: 40px;
     color: #3099d1;
 }
 
@@ -106,19 +119,22 @@ nav {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 30px;
+    padding: 30px;
 }
 
-
+.websites{
+    background-color: #11273f;
+    text-align: center;
+}
 
 .card{
-    box-shadow: 0 5px 10px rgba(1 1 1 / 15%);
     min-height: 14em;
     width: 23em;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
+    background-color: #e8f7ff;
 }
 
 
@@ -143,7 +159,7 @@ strong{
 
 
 .certificates {
-    background-color: #11273f;
+    background-color: #e8f7ff;
     text-align: center;
 }
 
@@ -161,15 +177,19 @@ strong{
     align-items: center;
 }
 
-#certificates-title{
-    display: inline-block;
-}
+
+
 .cards{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.contact{
+    background-color: #11273f;
+    text-align: center;
 }
 
 .contact-card{
@@ -181,6 +201,7 @@ strong{
     border-radius: 15px;
     border: 3px solid #428ab1;
     transition: 0.7s ease;
+    color: white;
 }
 
 .icon{
@@ -197,7 +218,7 @@ strong{
 }
 
 footer{
-    background-color: #11273f;
+    background-color:#256689;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -217,10 +238,15 @@ p span {
     margin-right: 5px;
 }
 
+.logo{
+    transition: 0.7s ease;
+}
+
 @media (hover:hover){
     .contact-card:hover{
         background-color: #e8f9ff;
         transform: scale(1.1);
+        color: #000;
     }
     .card a:hover {
         color: #0a35f5;
@@ -254,17 +280,26 @@ p span {
         margin: 20px;
     }
 
-    header {
+    header{
         justify-content: center;
         flex-direction: column;
     }
 
+    #last-link {
+        margin-right: 47px;
+    }
+
     nav a {
-        margin-right: 50px;
+        margin: 30px;
+    }
+
+    .logo{
+        margin-bottom: 10px;
     }
 }
+
   
-@media (max-width:500px) {
+@media (max-width:550px) {
     .certificates img {
         width: 100%;
         border-radius: 15px;
@@ -286,7 +321,12 @@ p span {
     }
 
     nav a {
-        margin-right: 20px;
+        font-size: 0.9em;
+        margin: 6px;
+    }
+
+    #last-link {
+        margin-right: 10vw;
     }
 
     .main h4 , .main h3{
@@ -301,4 +341,7 @@ p span {
         flex-direction: column;
     }
 
+    .main{
+        height: 20em;
+    }
 }
