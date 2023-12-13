@@ -32,12 +32,13 @@ header h3 {
     overflow: visible;
 }
 
-header a{
+nav a{
     text-decoration: none;
     color: #94daff;
     margin: 5px;
     overflow: visible;
     transition: 0.5s ease;
+    font-weight: bold;
 }
 
 #last-link {
