@@ -35,9 +35,7 @@ header a{
     transition: 0.5s ease;
 }
 
-header a:hover{
-    color: #428ab1;
-}
+
 
 nav {
     margin: 0 50px;
@@ -78,10 +76,6 @@ nav {
     transition: 0.7s ease;
 }
 
-.main-btn:hover{
-    background-color:#1b45ff;
-    transform: scale(1.1);
-}
 
 .social-icons{
     margin: 10px;
@@ -121,10 +115,6 @@ nav {
     transition: 0.7s ease;
 }
 
-.card:hover{
-    transform: scale(1.1);
-    opacity: 0.8;
-}
 
 .card a {
     text-decoration: none;
@@ -132,10 +122,7 @@ nav {
     transition: 0.5s ease;
 }
 
-.card a:hover {
-    color: #0a35f5;
-    transform: scale(1.1);
-}
+
 
 .card-img img{
     width: 100%;
@@ -190,11 +177,6 @@ strong{
     transition: 0.7s ease;
 }
 
-.contact-card:hover{
-    background-color: #e8f9ff;
-    transform: scale(1.1);
-}
-
 .icon{
     font-size: 4em;
     padding: 30px 0;
@@ -229,6 +211,27 @@ p span {
     margin-right: 5px;
 }
 
+@media (hover:hover){
+    .contact-card:hover{
+        background-color: #e8f9ff;
+        transform: scale(1.1);
+    }
+    .card a:hover {
+        color: #0a35f5;
+        transform: scale(1.1);
+    }
+    .card:hover{
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    .main-btn:hover{
+        background-color:#1b45ff;
+        transform: scale(1.1);
+    }
+    header a:hover{
+        color: #428ab1;
+    }
+}
 
 @media (max-width: 1100px){
     .main h4 , .main h3{
@@ -244,11 +247,16 @@ p span {
         border-radius: 15px;
         margin: 20px;
     }
+
+    header {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-right: 50px;
+    }
 }
-
-
-  
-  
   
 @media (max-width:500px) {
     .certificates img {
@@ -266,17 +274,13 @@ p span {
         font-size: 0.9em;
     }
 
-    nav{
-        margin: 0 40px;
+    header {
+        justify-content: center;
         flex-direction: column;
     }
 
     nav a {
-        margin: 0;
-    }
-
-    .logo{
-        margin: 0 20px;
+        margin-right: 20px;
     }
 
     .main h4 , .main h3{
