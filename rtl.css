@@ -245,6 +245,7 @@ p span {
     direction: ltr;
 }
 
+
 @media (hover:hover){
     .contact-card:hover{
         background-color: #e8f9ff;
