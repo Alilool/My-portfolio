@@ -23,15 +23,11 @@ header {
 
 }
 
-header h3 {
-    font-size: 1.5em;
-    margin: 0 50px;
-    color: #54acdc;
-    text-transform: uppercase;
-    overflow: visible;
+header img {
+    margin-left: 30px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #94daff;
     margin: 5px;
@@ -47,23 +43,24 @@ nav a{
     font-weight: 900;
 }
 
-.logo{
+.logo {
     padding-right: 21px;
 }
 
-.main{
+.main {
     background-color: #11273f;
     padding: 110px 0 0 0;
     text-align: center;
     height: 25em;
 }
 
-.main h4 , .main h3{
+.main h4,
+.main h3 {
     color: #ffffff;
     font-size: 2em;
 }
 
-.main h4{
+.main h4 {
     margin-top: 60px;
 }
 
@@ -73,7 +70,7 @@ nav a{
     font-size: 3em;
 }
 
-.main-btn{
+.main-btn {
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
@@ -86,22 +83,22 @@ nav a{
 }
 
 
-.social-icons{
+.social-icons {
     margin: 10px;
 }
 
-.social-icons a{
+.social-icons a {
     margin-right: 10px;
     font-size: 20px;
     color: white;
 }
 
-.about{
+.about {
     text-align: center;
     background-color: #e8f7ff;
 }
 
-.about p{
+.about p {
     font-size: 1.5em;
     font-weight: bold;
     color: #1e74a2;
@@ -109,7 +106,7 @@ nav a{
     padding-bottom: 40px;
 }
 
-.title{
+.title {
     display: inline-block;
     text-align: center;
     font-size: 2.5em;
@@ -117,7 +114,7 @@ nav a{
     color: #3099d1;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -125,12 +122,12 @@ nav a{
     padding: 30px;
 }
 
-.websites{
+.websites {
     background-color: #11273f;
     text-align: center;
 }
 
-.card{
+.card {
     min-height: 14em;
     width: 23em;
     overflow: hidden;
@@ -149,11 +146,11 @@ nav a{
 
 
 
-.card-img img{
+.card-img img {
     width: 100%;
 }
 
-strong{
+strong {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,7 +172,7 @@ strong{
 }
 
 
-.certificates-imgs{
+.certificates-imgs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -184,7 +181,7 @@ strong{
 
 
 
-.cards{
+.cards {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,12 +189,12 @@ strong{
     flex-direction: row;
 }
 
-.contact{
+.contact {
     background-color: #11273f;
     text-align: center;
 }
 
-.contact-card{
+.contact-card {
     box-shadow: 0 5px 10px rgba(1 1 1 / 15%);
     text-align: center;
     margin: 20px;
@@ -209,37 +206,37 @@ strong{
     color: white;
 }
 
-.icon{
+.icon {
     font-size: 4em;
     padding: 30px 0;
 }
 
-#last-icon{
+#last-icon {
     margin: 0;
 }
 
-.info{
+.info {
     font-weight: 550;
 }
 
-.card-heading{
+.card-heading {
     font-weight: 900;
     margin: 7px;
 }
 
-footer{
-    background-color:#256689;
+footer {
+    background-color: #256689;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
 }
 
-footer .social-icons{
+footer .social-icons {
     margin-right: 30px;
 }
 
-footer p{
+footer p {
     margin-left: 30px;
     display: flex;
 }
@@ -248,39 +245,51 @@ p span {
     margin-right: 5px;
 }
 
-.logo{
+.logo {
     transition: 0.7s ease;
 }
 
-@media (hover:hover){
-    .contact-card:hover{
+@media (hover:hover) {
+    .contact-card:hover {
         background-color: #e8f9ff;
         transform: scale(1.1);
         color: #000;
     }
+
     .card a:hover {
         color: #0a35f5;
         transform: scale(1.1);
     }
-    .card:hover{
+
+    .card:hover {
         transform: scale(1.1);
         opacity: 0.8;
     }
-    .main-btn:hover{
-        background-color:#1b45ff;
+
+    .main-btn:hover {
+        background-color: #1b45ff;
         transform: scale(1.1);
     }
-    header a:hover{
+
+    header a:hover {
         color: #428ab1;
     }
 }
 
-@media (max-width: 1100px){
-    .main h4 , .main h3{
+@media (max-width: 1100px) {
+
+    header img {
+        margin-left: 0px;
+    }
+
+
+    .main h4,
+    .main h3 {
         color: #ffffff;
         font-size: 2em;
     }
-    .main h1{
+
+    .main h1 {
         font-size: 2.5em;
     }
 
@@ -290,7 +299,7 @@ p span {
         margin: 20px;
     }
 
-    header{
+    header {
         justify-content: center;
         flex-direction: column;
     }
@@ -303,13 +312,19 @@ p span {
         margin: 30px;
     }
 
-    .logo{
+    .logo {
         margin-bottom: 10px;
     }
 }
 
-  
+
 @media (max-width:652px) {
+
+    header img {
+        margin-left: 0px;
+    }
+
+
     .certificates img {
         width: 90%;
         border-radius: 15px;
@@ -320,7 +335,7 @@ p span {
         margin: 10px;
     }
 
-    strong{
+    strong {
         font-size: 0.9em;
     }
 
@@ -338,19 +353,21 @@ p span {
         margin-right: 10vw;
     }
 
-    .main h4 , .main h3{
+    .main h4,
+    .main h3 {
         color: #ffffff;
         font-size: 1em;
     }
-    .main h1{
+
+    .main h1 {
         font-size: 2em;
     }
 
-    footer p{
+    footer p {
         flex-direction: column;
     }
 
-    .main{
+    .main {
         height: 20em;
     }
 }

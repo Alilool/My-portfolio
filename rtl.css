@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     direction: rtl;
@@ -22,15 +22,11 @@ header {
 }
 
 
-header h3 {
-    font-size: 1.5em;
-    margin: 0 50px;
-    color: #54acdc;
-    text-transform: uppercase;
-    overflow: visible;
+header img {
+    margin-left: 30px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #94daff;
     margin: 5px;
@@ -43,28 +39,29 @@ nav a{
     margin-left: 50px;
 }
 
-.logo{
+.logo {
     padding-right: 21px;
 }
 
-.main{
+.main {
     background-color: #11273f;
     padding: 110px 0 0 0;
     text-align: center;
     height: 27em;
 }
 
-.main h4 , .main h3{
+.main h4,
+.main h3 {
     color: #ffffff;
     font-size: 2em;
     margin: 20px;
 }
 
-.main h4{
+.main h4 {
     margin-top: 60px;
 }
 
-.main h3{
+.main h3 {
     margin-bottom: 0;
 }
 
@@ -73,7 +70,7 @@ nav a{
     font-size: 3em;
 }
 
-.main-btn{
+.main-btn {
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
@@ -85,23 +82,23 @@ nav a{
     transition: 0.7s ease;
 }
 
-.social-icons{
+.social-icons {
     margin: 10px;
     direction: ltr;
 }
 
-.social-icons a{
+.social-icons a {
     margin-right: 10px;
     font-size: 20px;
     color: white;
 }
 
-.about{
+.about {
     text-align: center;
     background-color: #e8f7ff;
 }
 
-.about p{
+.about p {
     font-size: 1.5em;
     font-weight: bold;
     color: #1e74a2;
@@ -109,7 +106,7 @@ nav a{
     padding-bottom: 40px;
 }
 
-.title{
+.title {
     display: inline-block;
     text-align: center;
     font-size: 2.5em;
@@ -117,7 +114,7 @@ nav a{
     color: #3099d1;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -125,12 +122,12 @@ nav a{
     padding: 30px;
 }
 
-.websites{
+.websites {
     background-color: #11273f;
     text-align: center;
 }
 
-.card{
+.card {
     min-height: 14em;
     width: 23em;
     overflow: hidden;
@@ -146,11 +143,11 @@ nav a{
     transition: 0.5s ease;
 }
 
-.card-img img{
+.card-img img {
     width: 100%;
 }
 
-strong{
+strong {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -170,14 +167,14 @@ strong{
     box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
 }
 
-.certificates-imgs{
+.certificates-imgs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.cards{
+.cards {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,12 +183,12 @@ strong{
     direction: ltr;
 }
 
-.contact{
+.contact {
     background-color: #11273f;
     text-align: center;
 }
 
-.contact-card{
+.contact-card {
     box-shadow: 0 5px 10px rgba(1 1 1 / 15%);
     text-align: center;
     margin: 20px;
@@ -203,26 +200,26 @@ strong{
     color: white;
 }
 
-.icon{
+.icon {
     font-size: 4em;
     padding: 30px 0;
 }
 
-#last-icon{
+#last-icon {
     margin: 0;
 }
 
-.info{
+.info {
     font-weight: 550;
 }
 
-.card-heading{
+.card-heading {
     font-weight: 900;
     margin-bottom: 15px;
 }
 
-footer{
-    background-color:#256689;
+footer {
+    background-color: #256689;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -230,11 +227,11 @@ footer{
     direction: ltr;
 }
 
-footer .social-icons{
+footer .social-icons {
     margin-right: 30px;
 }
 
-footer p{
+footer p {
     margin-left: 30px;
     display: flex;
 }
@@ -243,45 +240,58 @@ p span {
     margin-right: 5px;
 }
 
-.logo{
+.logo {
     transition: 0.7s ease;
     margin-left: 100px;
 }
 
-.phone-num , .email{
+.phone-num,
+.email {
     direction: ltr;
 }
 
 
-@media (hover:hover){
-    .contact-card:hover{
+@media (hover:hover) {
+    .contact-card:hover {
         background-color: #e8f9ff;
         transform: scale(1.1);
         color: #000;
     }
+
     .card a:hover {
         color: #0a35f5;
         transform: scale(1.1);
     }
-    .card:hover{
+
+    .card:hover {
         transform: scale(1.1);
         opacity: 0.8;
     }
-    .main-btn:hover{
-        background-color:#1b45ff;
+
+    .main-btn:hover {
+        background-color: #1b45ff;
         transform: scale(1.1);
     }
-    header a:hover{
+
+    header a:hover {
         color: #428ab1;
     }
 }
 
-@media (max-width: 1100px){
-    .main h4 , .main h3{
+@media (max-width: 1100px) {
+
+    header img {
+        margin-left: 0px;
+    }
+
+
+    .main h4,
+    .main h3 {
         color: #ffffff;
         font-size: 2em;
     }
-    .main h1{
+
+    .main h1 {
         font-size: 2.5em;
     }
 
@@ -291,7 +301,7 @@ p span {
         margin: 20px;
     }
 
-    header{
+    header {
         justify-content: center;
         flex-direction: column;
     }
@@ -304,25 +314,30 @@ p span {
         margin: 30px;
     }
 
-    .logo{
+    .logo {
         margin-bottom: 10px;
+    }
+
+    #first-link {
+        margin-right: 0;
     }
 }
 
-  
-@media (max-width:550px) {
+
+@media (max-width:570px) {
+
+    header img {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
     .certificates img {
         width: 90%;
         border-radius: 15px;
         margin: 20px;
     }
 
-    .card {
-        margin: 10px;
-        width: 30em;
-    }
-
-    strong{
+    strong {
         font-size: 0.9em;
     }
 
@@ -340,19 +355,21 @@ p span {
         margin-left: 10vw;
     }
 
-    .main h4 , .main h3{
+    .main h4,
+    .main h3 {
         color: #ffffff;
         font-size: 1em;
     }
-    .main h1{
+
+    .main h1 {
         font-size: 2em;
     }
 
-    footer p{
+    footer p {
         flex-direction: column;
     }
 
-    .main{
+    .main {
         height: 23em;
     }
 
