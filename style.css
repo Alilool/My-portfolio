@@ -371,7 +371,7 @@ p span {
 }
 
 
-@media (max-width:652px) {
+@media (max-width:550px) {
     .Language button {
         font-size: 1em;
     }

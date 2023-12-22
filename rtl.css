@@ -296,6 +296,16 @@ p span {
 
 
 @media (hover:hover) {
+    .lang-link:hover {
+        background-color: #2d4cd7;
+        cursor: pointer;
+    }
+
+    .Language button:hover {
+        cursor: pointer;
+        background-color: #2d4cd7;
+    }
+
     .contact-card:hover {
         background-color: #e8f9ff;
         transform: scale(1.1);
