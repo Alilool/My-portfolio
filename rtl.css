@@ -82,6 +82,50 @@ nav a {
     transition: 0.7s ease;
 }
 
+.Language {
+    position: absolute;
+    right: 0px;
+    top: 120px;
+    margin: 20px;
+    z-index: 900;
+    text-align: center;
+}
+
+.Language button {
+    background-color: #4361ee;
+    border: none;
+    padding: 8px;
+    border-radius: 13px;
+    color: white;
+    transition: background-color 0.5s ease;
+    width: 83px;
+    font-size: 1.3em;
+}
+
+.lang-change {
+    display: none;
+    position: absolute;
+    background-color: #4361ee;
+    width: 83px;
+    border-radius: 13px;
+}
+
+.arabic {
+    border-radius: 0px 0px 13px 13px;
+}
+
+
+.lang-link {
+    display: block;
+    background-color: #4361ee;
+    color: white;
+    padding: 8px;
+    margin: 0;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+
+}
+
 .social-icons {
     margin: 10px;
     direction: ltr;
@@ -324,7 +368,7 @@ p span {
 }
 
 
-@media (max-width:570px) {
+@media (max-width:500px) {
 
     header img {
         margin-left: 0;

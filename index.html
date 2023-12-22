@@ -16,12 +16,18 @@
             <a href="#about">About</a>
             <a href="#websites">Websites</a>
             <a href="#certificates">Certificates</a>
-            <a href="#contact">Contact</a>
-            <a id="last-link" href="./rtl.html">العربية</a>
+            <a id="last-link" href="#contact">Contact</a>
         </nav>
     </header>
     <main>
         <section class="main">
+            <div class="Language">
+                <button id="lang-btn" onclick="language()">Language</button>
+                <div class="lang-change" id="change">
+                    <a href="./index.html" class="lang-link english">English</a>
+                    <a href="./rtl.html" class="lang-link arabic">العربية</a>
+                </div>
+            </div>
             <h4>Hello, I am Ali</h4>
             <h1>Front-end Developer</h1>
             <h3>I love making websites</h3>
@@ -140,6 +146,24 @@
             <a href="https://github.com/Alilool" target="_blank"><i class="fab fa-github"></i></i></a>
         </div>
     </footer>
+
+    <script>
+        let off = true
+        let change = document.getElementById("change")
+        let lang_btn = document.getElementById("lang-btn")
+        function language() {
+            off = !off;
+
+            if (off == false) {
+                change.style.display = "block";
+                lang_btn.style.borderRadius = "13px 13px 0px 0px"
+
+            } else {
+                change.style.display = "none";
+                lang_btn.style.borderRadius = "13px"
+            }
+        }
+    </script>
 </body>
 
 </html>
