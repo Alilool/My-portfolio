@@ -34,12 +34,12 @@ nav a {
     overflow: visible;
     transition: 0.5s ease;
     font-weight: bold;
+    font-size: 0.9em;
 }
 
 
 #last-link {
-    margin-right: 100px;
-    font-size: 0.9em;
+    margin-right: 50px;
     font-weight: 900;
 }
 
@@ -357,9 +357,6 @@ p span {
         flex-direction: column;
     }
 
-    #last-link {
-        margin-right: 47px;
-    }
 
     nav a {
         margin: 30px;
@@ -409,9 +406,6 @@ p span {
         margin: 6px;
     }
 
-    #last-link {
-        margin-right: 10vw;
-    }
 
     .main h4,
     .main h3 {
